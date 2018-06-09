@@ -7,4 +7,7 @@ Phasellus vulputate suscipit ex. Sed congue tincidunt lectus cursus rhoncus. Ves
 In lobortis rhoncus lobortis. Proin fermentum erat enim. Donec et ligula turpis. Phasellus sem metus, porta ut accumsan sodales, consequat eu est. Duis ligula augue, semper a accumsan in, scelerisque et magna. Nam nec laoreet eros, sit amet varius sapien. Praesent non sem lectus. Maecenas venenatis neque purus, a ornare enim porta suscipit. Phasellus fermentum, sem id eleifend consequat, erat erat volutpat orci, at congue nulla lacus ac dui. Vestibulum vulputate hendrerit velit, nec consectetur lacus.</string>
 
     <string name="profile">Profile</string>
+    <string name="profile_alum_name">Satoshi Nakamoto</string>
+    <string name="profile_alum_role">Penetration Tester - 1</string>
+    <string name="profile_alum_company">Remwes LLc</string>
 </resources>
