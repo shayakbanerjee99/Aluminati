@@ -14,7 +14,7 @@
         android:layout_margin="10dp"
         android:src="@drawable/anon_profile_pic"
         app:civ_border_width="2dp"
-        app:civ_border_color="#FF000000"/>
+        app:civ_border_color="@android:color/white"/>
 
     <LinearLayout
         android:layout_width="200dp"
@@ -27,12 +27,31 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:text="@string/profile_alum_name"
             android:id="@+id/profile_alum_name" />
+
+        <View
+            style="@style/dividerHorizontal"
+            android:background="@android:color/white"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:text="@string/profile_alum_role"
             android:id="@+id/profile_alum_role"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:text="@string/profile_alum_company"
+            android:id="@+id/profile_alum_company"/>
     </LinearLayout>
 </LinearLayout>
