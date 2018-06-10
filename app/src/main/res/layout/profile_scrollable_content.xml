@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
-</android.support.constraint.ConstraintLayout>
+        android:id="@+id/profile_work_experience_title"
+        android:text="@string/profile_work_experience_title"
+        style="@style/profileScrollableContentTitleText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_work_experience"
+        android:text="@string/profile_work_experience"
+        style="@style/profileScrollableContentDescriptionText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_education_title"
+        android:text="@string/profile_education_title"
+        style="@style/profileScrollableContentTitleText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_education"
+        android:text="@string/profile_education"
+        style="@style/profileScrollableContentDescriptionText" />
+</LinearLayout>
