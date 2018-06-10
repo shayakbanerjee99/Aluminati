@@ -9,5 +9,11 @@ In lobortis rhoncus lobortis. Proin fermentum erat enim. Donec et ligula turpis.
     <string name="profile">Profile</string>
     <string name="profile_alum_name">Satoshi Nakamoto</string>
     <string name="profile_alum_role">Penetration Tester - 1</string>
-    <string name="profile_alum_company">Remwes LLc</string>
+    <string name="profile_alum_company">Remwes LLC</string>
+
+    <string name="profile_work_experience_title">Work Experience</string>
+    <string name="profile_work_experience">Penetration Tester - 1 <br/> Remwes LLC</string>
+    <string name="profile_education_title">Education</string>
+    <string name="profile_education">B.Tech – Computer Science and Engineering <br/> 2016–2020</string>
+
 </resources>
