@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Aluminati</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget sollicitudin felis, id lobortis leo. Suspendisse lorem nibh, sagittis in metus ac, laoreet iaculis augue. Etiam ut leo molestie, laoreet mi commodo, volutpat arcu. Cras dignissim ac enim nec volutpat. Donec vehicula nunc eget mollis dapibus. Donec pulvinar tellus nec neque molestie, id blandit nibh iaculis. Duis eu luctus nibh. Pellentesque nisi arcu, molestie a lacus nec, mattis lobortis risus. Mauris placerat turpis est. Duis consequat ullamcorper sapien nec pulvinar. In rutrum tortor non velit blandit porttitor.Cras nec mattis ipsum. Morbi et dolor porta, elementum metus nec, tempus nunc. Morbi nec risus imperdiet, fringilla eros quis, commodo lectus. Aliquam erat volutpat. Donec enim nisi, congue sed finibus vel, placerat at nisl. Nulla ligula justo, lobortis vitae venenatis a, vehicula a ipsum. Donec magna arcu, luctus non risus at, consequat molestie leo. Mauris vestibulum sagittis tincidunt. Nam id felis consequat, egestas nunc eu, vehicula velit. Maecenas non lorem ullamcorper, tempor urna id, dignissim neque. Nunc ac consequat tortor. Donec rhoncus, nunc vel laoreet mollis, est nibh eleifend nisi, sed rutrum purus massa at risus. Etiam iaculis, ipsum in hendrerit fringilla, elit tellus consequat mauris, eu efficitur massa felis facilisis est. Curabitur interdum est et purus accumsan varius. Praesent nec libero nunc. Nunc et blandit tellus.
+
+Phasellus vulputate suscipit ex. Sed congue tincidunt lectus cursus rhoncus. Vestibulum diam erat, viverra non congue a, iaculis vel mi. Nam in feugiat erat. Morbi faucibus gravida libero, sit amet molestie mi consequat sit amet. Suspendisse potenti. Proin odio elit, posuere eu egestas eleifend, mollis ac nunc.
+
+In lobortis rhoncus lobortis. Proin fermentum erat enim. Donec et ligula turpis. Phasellus sem metus, porta ut accumsan sodales, consequat eu est. Duis ligula augue, semper a accumsan in, scelerisque et magna. Nam nec laoreet eros, sit amet varius sapien. Praesent non sem lectus. Maecenas venenatis neque purus, a ornare enim porta suscipit. Phasellus fermentum, sem id eleifend consequat, erat erat volutpat orci, at congue nulla lacus ac dui. Vestibulum vulputate hendrerit velit, nec consectetur lacus.</string>
+
+    <string name="profile">Profile</string>
+    <string name="profile_alum_name">Satoshi Nakamoto</string>
+    <string name="profile_alum_role">Penetration Tester - 1</string>
+    <string name="profile_alum_company">Remwes LLC</string>
+
+    <string name="profile_work_experience_title">Work Experience</string>
+    <string name="profile_work_experience">Penetration Tester - 1 <br/> Remwes LLC</string>
+    <string name="profile_education_title">Education</string>
+    <string name="profile_education">B.Tech – Computer Science and Engineering <br/> 2016–2020</string>
+
 </resources>
