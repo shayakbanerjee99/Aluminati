@@ -7,7 +7,7 @@ import android.util.Log
 
 class ViewPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
     companion object {
-        const val PAGE_COUNT = 1
+        const val PAGE_COUNT = 2
     }
 
     override fun getCount(): Int {
@@ -17,12 +17,14 @@ class ViewPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
 
     override fun getItem(position: Int): Fragment = when(position) {
         0 -> AlumniListFragment.newInstance()
+        1 -> ChatFragment.newInstance()
 
         else -> AlumniListFragment.newInstance()
     }
 
     override fun getPageTitle(position: Int): CharSequence = when(position) {
         0 -> "Alumni"
+        1 -> "Chats"
 
         else -> "Alumni"
     }
