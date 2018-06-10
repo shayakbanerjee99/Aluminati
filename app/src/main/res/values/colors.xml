@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Old colorPrimary: #3F51B5 -->
+    <!-- Old colorPrimary: #3F51B5
+         Old colorPrimaryDark: #303F9F
+        Old colorAccent: #FF4081-->
     <color name="colorPrimary">#00BCD5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryDark">#26aabc</color>
+    <color name="colorAccent">#d53c00</color>
 
     <color name="profile_collapsable_content_background">#00BCD5</color>
 </resources>
