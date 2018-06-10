@@ -13,6 +13,7 @@
         <android.support.design.widget.CollapsingToolbarLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:paddingTop="30dp"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
             <include layout="@layout/profile_collapsable_content" />
         </android.support.design.widget.CollapsingToolbarLayout>
