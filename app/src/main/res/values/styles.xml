@@ -29,4 +29,21 @@
         <item name="android:layout_height">match_parent</item>
     </style>
 
+    <!-- Text styles -->
+    <style name="profileCollapsableContentText">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="profileScrollableContentText">
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="profileScrollableContentTitleText" parent="profileScrollableContentText">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="profileScrollableContentDescriptionText" parent="profileScrollableContentText">
+        <item name="android:textSize">15sp</item>
+    </style>
+
 </resources>
