@@ -1,5 +1,6 @@
-package aakashresearchlabs.org.aluminati
+package aakashresearchlabs.org.aluminati.fragments.fragmentAlumni
 
+import aakashresearchlabs.org.aluminati.R
 import android.support.v7.widget.RecyclerView
 import android.view.View
 import android.widget.TextView

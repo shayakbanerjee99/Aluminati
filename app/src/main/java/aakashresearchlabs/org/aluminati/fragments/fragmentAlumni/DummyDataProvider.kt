@@ -1,4 +1,6 @@
-package aakashresearchlabs.org.aluminati
+package aakashresearchlabs.org.aluminati.fragments.fragmentAlumni
+
+import aakashresearchlabs.org.aluminati.fragments.fragmentAlumni.Alum
 
 class DummyDataProvider{
     companion object {

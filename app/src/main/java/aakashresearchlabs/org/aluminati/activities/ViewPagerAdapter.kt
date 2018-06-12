@@ -1,5 +1,7 @@
-package aakashresearchlabs.org.aluminati
+package aakashresearchlabs.org.aluminati.activities
 
+import aakashresearchlabs.org.aluminati.fragments.chatfragment.ChatFragment
+import aakashresearchlabs.org.aluminati.fragments.fragmentAlumni.AlumniListFragment
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentPagerAdapter

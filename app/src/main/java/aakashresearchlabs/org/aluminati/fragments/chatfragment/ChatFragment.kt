@@ -1,5 +1,6 @@
-package aakashresearchlabs.org.aluminati
+package aakashresearchlabs.org.aluminati.fragments.chatfragment
 
+import aakashresearchlabs.org.aluminati.R
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.view.LayoutInflater

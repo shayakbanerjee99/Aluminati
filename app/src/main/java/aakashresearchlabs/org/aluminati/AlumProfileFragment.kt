@@ -15,7 +15,7 @@ class AlumProfileFragment : Fragment() {
     }
 
     companion object {
-        fun newInstance():AlumProfileFragment {
+        fun newInstance(): AlumProfileFragment {
             return AlumProfileFragment()
         }
     }

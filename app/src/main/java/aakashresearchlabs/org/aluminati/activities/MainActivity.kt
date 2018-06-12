@@ -1,5 +1,6 @@
-package aakashresearchlabs.org.aluminati
+package aakashresearchlabs.org.aluminati.activities
 
+import aakashresearchlabs.org.aluminati.R
 import android.content.Context
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
