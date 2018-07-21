@@ -61,7 +61,6 @@ private class ViewPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
     }
 
     override fun getCount(): Int {
-        Log.d("aluminati", "getcount called")
         return PAGE_COUNT
     }
 

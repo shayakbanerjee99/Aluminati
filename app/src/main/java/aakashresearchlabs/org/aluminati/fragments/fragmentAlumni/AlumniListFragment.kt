@@ -41,7 +41,6 @@ private class AlumniAdapter(private val alumniList: ArrayList<Alum>) : RecyclerV
     }
 
     override fun getItemCount(): Int {
-        Log.d("aluminati", "getitemcount called")
         return alumniList.size
     }
 
