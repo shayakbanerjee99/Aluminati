@@ -10,5 +10,5 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/alum_profile_fragment"
-        class="aakashresearchlabs.org.aluminati.AlumProfileFragment" />
+        class="aakashresearchlabs.org.aluminati.fragments.AlumProfileFragment" />
 </android.support.constraint.ConstraintLayout>
