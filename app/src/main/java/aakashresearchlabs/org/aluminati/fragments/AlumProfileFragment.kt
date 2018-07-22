@@ -1,4 +1,4 @@
-package aakashresearchlabs.org.aluminati.fragments.chatfragment
+package aakashresearchlabs.org.aluminati.fragments
 
 import aakashresearchlabs.org.aluminati.R
 import android.os.Bundle
@@ -7,18 +7,18 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
-class ChatFragment : Fragment() {
+class AlumProfileFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        return inflater.inflate(R.layout.fragment_chat, container, false)
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_alum_profile, container, false)
     }
 
     companion object {
-        fun newInstance(): ChatFragment {
-            return ChatFragment()
+        fun newInstance(): AlumProfileFragment {
+            return AlumProfileFragment()
         }
-
     }
 
 }
