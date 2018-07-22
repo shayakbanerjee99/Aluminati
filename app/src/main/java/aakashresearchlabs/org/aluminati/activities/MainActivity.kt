@@ -1,8 +1,8 @@
 package aakashresearchlabs.org.aluminati.activities
 
 import aakashresearchlabs.org.aluminati.R
-import aakashresearchlabs.org.aluminati.fragments.chatfragment.ChatFragment
-import aakashresearchlabs.org.aluminati.fragments.fragmentAlumni.AlumniListFragment
+import aakashresearchlabs.org.aluminati.fragments.ChatFragment
+import aakashresearchlabs.org.aluminati.fragments.UserListFragment
 import android.content.Context
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
@@ -13,7 +13,6 @@ import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentPagerAdapter
 import android.support.v7.widget.Toolbar
-import android.util.Log
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
@@ -65,10 +64,10 @@ private class ViewPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
     }
 
     override fun getItem(position: Int): Fragment = when(position) {
-        0 -> AlumniListFragment.newInstance()
+        0 -> UserListFragment.newInstance()
         1 -> ChatFragment.newInstance()
 
-        else -> AlumniListFragment.newInstance()
+        else -> UserListFragment.newInstance()
     }
 
     override fun getPageTitle(position: Int): CharSequence = when(position) {
