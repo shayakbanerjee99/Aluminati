@@ -71,7 +71,7 @@ private class ViewPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
     }
 
     override fun getPageTitle(position: Int): CharSequence = when(position) {
-        0 -> "Alumni"
+        0 -> "People"
         1 -> "Chats"
 
         else -> "Alumni"
