@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "20171518266",
+    "firebase_url": "https://aluminati-a6171.firebaseio.com",
+    "project_id": "aluminati-a6171",
+    "storage_bucket": "aluminati-a6171.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20171518266:android:62dde7a8abfed613",
+        "android_client_info": {
+          "package_name": "aakashresearchlabs.org.aluminati"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20171518266-7i3cfdl6erm53db963bfqf4fsi5rff7v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "aakashresearchlabs.org.aluminati",
+            "certificate_hash": "26bde4ef0bf435e563cf2014c2df9d60b6fad194"
+          }
+        },
+        {
+          "client_id": "20171518266-fdkonifggosknroknjmd7so0a4dsa5g7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLjk4eFrX72JZIDfWQFnqWzL6AY5Mepms"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20171518266-fdkonifggosknroknjmd7so0a4dsa5g7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
