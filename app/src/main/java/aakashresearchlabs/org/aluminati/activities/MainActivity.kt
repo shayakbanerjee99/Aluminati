@@ -18,6 +18,7 @@ import android.view.MenuInflater
 import android.view.MenuItem
 import android.view.View
 
+
 class MainActivity : AppCompatActivity() {
 
     private var viewPager: ViewPager? = null
@@ -54,7 +55,8 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-private class ViewPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
+private class ViewPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm)
+{
     companion object {
         const val PAGE_COUNT = 2
     }
@@ -68,6 +70,8 @@ private class ViewPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
         1 -> ChatFragment.newInstance()
 
         else -> UserListFragment.newInstance()
+
+        //default fragment = UserListFragment which shows the faculty list
     }
 
     override fun getPageTitle(position: Int): CharSequence = when(position) {
@@ -75,5 +79,7 @@ private class ViewPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
         1 -> "Chats"
 
         else -> "Alumni"
+
+
     }
 }

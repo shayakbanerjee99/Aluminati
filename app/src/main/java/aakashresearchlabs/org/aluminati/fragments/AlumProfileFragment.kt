@@ -7,6 +7,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
+/**
+ * Open on Clicking "profile" option
+ * ProfileActivity opens this fragment
+ * shows the basic details of the faculty (their name,work experience,education and more)
+ *
+ * fragment_alum_profile includes the layouts profile_collapsable_content.xml and the
+ * profile_collapsable_content.xml
+ */
 class AlumProfileFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,

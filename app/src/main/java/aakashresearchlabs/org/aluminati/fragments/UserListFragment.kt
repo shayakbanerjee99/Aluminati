@@ -13,10 +13,18 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import kotlinx.android.synthetic.main.fragment_alumni_list.*
 
-class UserListFragment : Fragment() {
+/**
+ * Inflating fragment_alumni_list.xml which has a list of faculty details
+ */
+
+
+class UserListFragment : Fragment()
+{
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_alumni_list, container, false)
     }
+
+
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         val alumni = ArrayList<User>()
@@ -34,7 +42,13 @@ class UserListFragment : Fragment() {
     }
 }
 
-private class AlumniAdapter(private val userList: ArrayList<User>) : RecyclerView.Adapter<UserHolder>() {
+/**
+ * RecyclerView for alumni list in this fragment(currently showing @param alumni name only)
+ *  Alumni image and email to be added later
+ *  gets a view from alum_item.xml
+ */
+private class AlumniAdapter(private val userList: ArrayList<User>) : RecyclerView.Adapter<UserHolder>()
+{
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): UserHolder {
         val alumItem = LayoutInflater.from(parent.context).inflate(R.layout.alum_item, parent, false) as LinearLayout
         return UserHolder(alumItem)
@@ -49,11 +63,21 @@ private class AlumniAdapter(private val userList: ArrayList<User>) : RecyclerVie
     }
 }
 
-private class UserHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+private class UserHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
+{
+    /** TODO
+     * define imageView for alumni in @see alum_item.xml
+     * define TextView for email as well
+     */
+
     // private val alumImage: ImageView = itemView.findViewById(R.id.alum_image)
     private val name: TextView = itemView.findViewById(R.id.alum_name)
 
     fun populateHolder(user: User) {
+        /**
+         *TODO do not forget imageView and email
+         */
+
         name.text = user.name
     }
 }
